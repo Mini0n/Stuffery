@@ -1,11 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+On going proyect to store data online
 
-Things you may want to cover:
+Planned: Notes, lists, links
 
-* Ruby version
+
+##TODO:
+
+* Ruby version: 2.5.1
 
 * System dependencies
 
