@@ -1,4 +1,4 @@
-# Static page controller
+# Static pages controller
 class StaticPagesController < ApplicationController
   def home; end
 
