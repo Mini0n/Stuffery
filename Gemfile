@@ -18,7 +18,7 @@ group :development, :test do
   gem 'byebug',  '9.0.6', platform: :mri
   gem 'capybara'
   gem 'database_cleaner'
-  gem 'factory_girl_rails'
+  gem 'factory_bot_rails'
   gem 'rspec-rails'
   gem 'sqlite3', '1.3.13'
 end
