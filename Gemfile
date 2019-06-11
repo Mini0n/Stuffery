@@ -19,6 +19,7 @@ group :development, :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'factory_bot_rails'
+  gem 'faker'
   gem 'rspec-rails'
   gem 'sqlite3', '1.3.13'
 end
