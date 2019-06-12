@@ -1,12 +1,14 @@
 require 'rails_helper'
 
 RSpec.describe StaticPagesController, type: :controller do
+  render_views
 
   describe 'controller routes' do
     context 'GET home' do
       it 'returns 200' do
         get :home
         expect(response.status).to eq(200)
+        expect(response.body).to include 'Stuffery'
       end
     end
 
